@@ -73,7 +73,7 @@ changelog_examples/changelog.md
 ```yml
 - name: test changelog reading
   id: changelog_action
-  uses: embedd-actions/read_changelog_action@v3
+  uses: embedd-actions/read_changelog_action@v4
   with:
     changelogfile: 'changelog_examples/changelog.md'
     tag: '0.0.1'
